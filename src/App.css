@@ -30,3 +30,20 @@
     transform: rotate(360deg);
   }
 }
+
+.details {
+  background: whitesmoke;
+  height: 85vh;
+  min-width: calc(100% -40px);
+  overflow: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+/*Cuando se hace pequeña la pantalla,
+por debajo de 64 em se considera pequeña*/
+@media (max-width: 64em) {
+  .details {
+    height: 40vh;
+  }
+}

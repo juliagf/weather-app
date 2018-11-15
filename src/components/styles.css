@@ -1,0 +1,26 @@
+ .locationList{
+    height: 85vh;
+    overflow:  auto;
+ }
+
+/*Por debajo de 64em se considera
+pantalla pequeña y ocurre lo que
+hay aquí dentro: */
+@media (max-width: 64em){
+    .locationList{
+        max-height: 40vh;
+        margin-bottom: 20px;
+    }
+}
+
+.forecast-title {
+    color: rgb(57, 57, 134);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.forecast-loading {
+    color: rgb(71, 71, 131);
+    text-align: center;
+}
